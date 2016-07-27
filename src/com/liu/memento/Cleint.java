@@ -7,15 +7,15 @@ public class Cleint {
 	public void test() {
 		Originator org = new Originator();
 		Caretaker care = new Caretaker();
-		//ĞŞ¸ÄÔ­·¢Æ÷×´Ì¬
+		//ä¿®æ”¹åŸå‘å™¨çŠ¶æ€
 		org.changeState("StateA");
-		//¸ºÔğÈË´æ´¢µ±Ç°×´Ì¬
+		//è´Ÿè´£äººå­˜å‚¨å½“å‰çŠ¶æ€
 		care.setMemento(org.createMemento());
-		//ĞŞ¸ÄÔ­·¢Æ÷×´Ì¬
+		//ä¿®æ”¹åŸå‘å™¨çŠ¶æ€
 		org.changeState("StateB");
-		//Ê¹ÓÃ¸ºÔğÈË´æ´¢µÄ×´Ì¬»Ö¸´Ô­·¢Æ÷×´Ì¬
+		//ä½¿ç”¨è´Ÿè´£äººå­˜å‚¨çš„çŠ¶æ€æ¢å¤åŸå‘å™¨çŠ¶æ€
 		org.setMemento(care.getMemento());
-		//»ñÈ¡µ±Ç°µÄ×´Ì¬
+		//è·å–å½“å‰çš„çŠ¶æ€
 		System.out.println(org.createMemento().getState());
 	}
 }

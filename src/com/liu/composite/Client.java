@@ -3,7 +3,7 @@ package com.liu.composite;
 import org.junit.Test;
 
 public class Client {
-	/**���ɽṹΪ
+	/**构成结构为
 	 * <pre>
 	 *        root
 	 *     ____|____

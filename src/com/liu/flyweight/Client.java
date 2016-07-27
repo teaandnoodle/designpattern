@@ -8,7 +8,7 @@ public class Client {
 		Flyweight root = buildTree(new String[]{"a", "b", "c","a","b","c"});
 		System.out.println(root.operation());
 	}
-	//¹¹½¨Ò»¿Ã½ÚµãÊ÷£¬Õâ¿ÃÊ÷°´ÕÕ¹ã¶ÈÓÅÏÈ£¬Ò»²ãÒ»²ãÏòÏÂ
+	//æ„å»ºä¸€æ£µèŠ‚ç‚¹æ ‘ï¼Œè¿™æ£µæ ‘æŒ‰ç…§å¹¿åº¦ä¼˜å…ˆï¼Œä¸€å±‚ä¸€å±‚å‘ä¸‹
 	public Flyweight buildTree(String strs[]){
 		return dfs(strs, 0);
 	}

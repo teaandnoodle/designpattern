@@ -1,6 +1,6 @@
 package com.liu.singleton;
 
-//´íÎó×ö·¨
+//é”™è¯¯åšæ³•
 public class Singleton6 {
 	private Singleton6() {}
 

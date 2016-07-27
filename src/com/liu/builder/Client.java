@@ -6,7 +6,7 @@ public class Client {
 	@Test
 	public void testBuilder(){
 		Director director = new Director();
-		//这里可以使用不同的builder
+		//杩欓噷鍙互浣跨敤涓嶅悓鐨刡uilder
 		Product product = director.Construct(new ConcreteBuilder());
 		System.out.println(product.toString());
 	}

@@ -9,10 +9,10 @@ public class ConcreteSingleton2 extends Singleton2{
 	
 	@Test
 	public void test(){
-		//³õÊ¼»¯Ê±±ØĞëÕâÃ´×ö
+		//åˆå§‹åŒ–æ—¶å¿…é¡»è¿™ä¹ˆåš
 		new ConcreteSingleton2();
 		System.setProperty("SINGLETON", "ConcreteSingleton2");
-		//Êµ¼ÊÊ¹ÓÃÊ±
+		//å®é™…ä½¿ç”¨æ—¶
 		Singleton2 s = Singleton2.getInstance();
 		System.out.println(s);;
 	}

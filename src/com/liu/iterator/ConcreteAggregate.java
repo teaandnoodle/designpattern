@@ -3,7 +3,7 @@ package com.liu.iterator;
 import java.util.Arrays;
 
 /**
- * Ä£ÄâÒ»¸öList
+ * æ¨¡æ‹Ÿä¸€ä¸ªList
  * */
 public class ConcreteAggregate<E> implements Aggregate<E> {
 

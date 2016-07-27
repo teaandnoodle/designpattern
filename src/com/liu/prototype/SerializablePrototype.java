@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * reference:
  * <a href='http://www.cnblogs.com/itTeacher/archive/2012/12/02/2797857.html'>
- * Java���ģʽ��: ԭ��ģʽ(Prototype Pattern)</a>
+ * Java设计模式四: 原型模式(Prototype Pattern)</a>
  */
 public class SerializablePrototype implements Serializable {
 	private static final long serialVersionUID = 4653567423161077789L;

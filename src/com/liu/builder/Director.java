@@ -2,7 +2,7 @@ package com.liu.builder;
 
 public class Director {
 	public Product Construct(Builder builder){
-		builder.buildPart();//创建前的操作
+		builder.buildPart();//鍒涘缓鍓嶇殑鎿嶄綔
 		return builder.getResult();
 	}
 }

@@ -2,40 +2,40 @@ package com.liu.factorymethod;
 
 public class TestMain {
 
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp1(){
-		Application app = new MyApp1();//ÕâÀïapp×÷Îª¿Í»§¶Ë
+		Application app = new MyApp1();//è¿™é‡Œappä½œä¸ºå®¢æˆ·ç«¯
 		app.openDocument();
 	}
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp2(){
-		Application2 app = new MyApp2();//ÕâÀïapp×÷Îª¿Í»§¶Ë
+		Application2 app = new MyApp2();//è¿™é‡Œappä½œä¸ºå®¢æˆ·ç«¯
 		app.openDocument("mydoc");
 		app.openDocument("yourdoc");
 	}
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp3(){
 		MyApp3 factory = new MyApp3();
 		Document doc = factory.createDocument("mydoc");
 		doc.open();
 	}
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp4(){
 		MyApp4 factory = new MyApp4();
 		Document doc = factory.createDefaultDocument();
 		doc.open();
 	}
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp5(){
 		Document doc = MyApp5.createDefaultDocument();
 		doc.open();
 	}
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp6(){
 		Document doc = (Document)MyApp6.createDefaultDocument(DefaultDocument.class.getName());
 		doc.open();
 	}
-	//test·½·¨
+	//testæ–¹æ³•
 	public static void testMyApp7(){
 		Document doc = null;
 		try {

@@ -1,7 +1,7 @@
 package com.liu.factorymethod;
 
 public class MyApp7 {
-	//这里的模板参数可以是<T extends YourBaseEntity>
+	//杩欓噷鐨勬ā鏉垮弬鏁板彲浠ユ槸<T extends YourBaseEntity>
 	public static <T> T getInstance(Class<T> clz) throws Exception{
 		T obj = null;
 		try {
